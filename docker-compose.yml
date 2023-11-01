@@ -19,7 +19,7 @@ services:
   app:
     depends_on:
       - mysqldb
-    image:  amirovvv/spring-app:first
+    image:  toumi15/spring-app:first
     restart: on-failure
     env_file: ./.env
     ports:
